@@ -23,8 +23,8 @@ let app_data = [],
   formatedDates = [];
 
 // GET USERS COUNTRY CODE
-let country_code = geoplugin_countryCode();
-let user_country;
+let country_code ;
+let user_country = "India";
 country_list.forEach((country) => {
   if (country.code == country_code) {
     user_country = country.name;
